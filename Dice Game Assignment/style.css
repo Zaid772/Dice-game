@@ -1,0 +1,104 @@
+body{
+    background-color: aliceblue;
+}
+
+#play1{
+    background-color: red;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color #0067b8 0.1s;
+}
+
+#play1:hover{
+    background-color: #005799;
+}
+
+#play2{
+    background-color: greenyellow;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color #0067b8 0.1s;
+}
+
+#play2:hover{
+    background-color: #005799;
+}
+
+.startBtns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.frontBtns{
+    padding: 10px;
+    margin: 10px;
+}
+
+#logo{
+    width: 50px;
+}
+
+#play{
+    text-align: center;
+    margin-top: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+#diceImg{
+    width: 200px;
+}
+
+#diceBtn{
+    opacity: transparent;
+    background-color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+
+.dices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.restartBtn{
+    background: linear-gradient(red, black );
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.restartBtn:hover{
+    background: linear-gradient(blue, black );}
+
+#restart{
+    background: linear-gradient(red, black );
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#restart:hover{
+    background: linear-gradient(blue, black );
+}
+
+#subHead{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
